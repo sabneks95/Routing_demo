@@ -12,6 +12,7 @@ import { faLock } from '@fortawesome/free-solid-svg-icons';
 export class LoginComponent implements OnInit {
 
   faLock=faLock;
+  var1:string='';
 
   loginForm =new FormGroup({
     
